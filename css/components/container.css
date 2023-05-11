@@ -1,0 +1,21 @@
+.container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.container > h1 {
+  text-align: center;
+}
+
+
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
